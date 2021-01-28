@@ -2,6 +2,7 @@ const nav = document.querySelector(".nav");
 const firstImage = document.querySelector(".first-image");
 const products = document.querySelector(".products");
 const footer = document.querySelector(".footer");
+const testimonialFooter = document.querySelector(".testimonial-footer");
 
 const navContent = `<nav>
 <div class="nav-brand">
@@ -123,3 +124,4 @@ firstImageContent.src = "images/ofada1.svg";
 firstImage.appendChild(firstImageContent);
 products.innerHTML = productsContent;
 footer.innerHTML = footerContent;
+testimonialFooter.innerHTML = footerContent;

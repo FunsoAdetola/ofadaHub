@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -150,7 +150,8 @@ nav .drop {
   max-height: 100%;
   border-radius: 20px;
 }
-.footer {
+.footer,
+.faqs {
   background-image: url("../images/footer-image.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,6 +292,103 @@ testimonials */
 
 .testimonials {
   background: rgba(228, 215, 215, 1);
+  padding: 0 0 2rem;
+}
+.testimonial-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.testimonial-heading {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.testimonial-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-content {
+  width: 70%;
+  margin: 2rem auto 0.5rem;
+  padding: 2rem 1rem;
+  color: #141414;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #fff;
+}
+.testimonial-btn {
+  cursor: pointer;
+  background: #008c3f;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto 1rem;
+  text-align: center;
+}
+.faqs {
+  height: auto;
+  padding: 1rem 1rem 5rem;
+}
+
+.faqs .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  font-size: 15px;
+}
+.testimonial-footer {
+  background: rgba(0, 140, 63, 1);
+}
+.question {
+  font-style: italic;
+}
+.answer {
+  font-weight: bold;
+}
+.question-answer span {
+  display: block;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0 2rem;
+  margin: 1rem auto;
+}
+.form {
+  display: none;
+}
+.form input {
+  display: block;
+  width: 60%;
+  border: none;
+  border-radius: 30px;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-indent: 10px;
+  outline: none;
+  font-size: 18px;
+}
+.form input[type="submit"] {
+  background-color: #008c3f;
+  color: white;
+}
+.form input[type="submit"]:hover {
+  background-color: #c4c4c4;
+  color: #008c3f;
+}
+.show-form {
+  display: block;
 }
 @media (min-width: 768px) {
   .hamburger {
