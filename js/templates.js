@@ -55,22 +55,22 @@ const productsContent = ` <h2 class="product-heading">Our Products</h2>
 
 <div class="product-images">
   <div class="product-image">
-    <img src="images/ofada3.svg" alt="product image" />
+    <img src="images/ofada3.jpg" alt="product image" />
   </div>
   <div class="product-image">
-    <img src="images/ofada4.svg" alt="product image" />
+    <img src="images/ofada4.jpg" alt="product image" />
   </div>
   <div class="product-image">
-    <img src="images/ofada5.svg" alt="product image" />
+    <img src="images/ofada5.jpg" alt="product image" />
   </div>
   <div class="product-image">
-    <img src="images/ofada6.svg" alt="product image" />
+    <img src="images/ofada6.jpg" alt="product image" />
   </div>
   <div class="product-image">
-    <img src="images/ofada7.svg" alt="product image" />
+    <img src="images/ofada7.jpg" alt="product image" />
   </div>
   <div class="product-image">
-    <img src="images/ofada8.svg" alt="product image" />
+    <img src="images/ofada8.jpg" alt="product image" />
   </div>
 </div>`;
 
@@ -119,7 +119,7 @@ const footerContent = ` <div class="contact">
 
 nav.innerHTML = navContent;
 const firstImageContent = document.createElement("img");
-firstImageContent.src = "images/ofada1.svg";
+firstImageContent.src = "images/ofada1.jpg";
 firstImage.appendChild(firstImageContent);
 products.innerHTML = productsContent;
 footer.innerHTML = footerContent;
