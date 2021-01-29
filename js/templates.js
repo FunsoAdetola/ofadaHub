@@ -2,14 +2,13 @@ const nav = document.querySelector(".nav");
 const firstImage = document.querySelector(".first-image");
 const products = document.querySelector(".products");
 const footer = document.querySelector(".footer");
-const testimonialFooter = document.querySelector(".testimonial-footer");
 
 const navContent = `<nav>
 <div class="nav-brand">
   <img src="images/logo.svg" alt="brand logo" />
   <span class="brand-name">Ofada Hub</span>
 </div>
-<div class="hamburger">
+<div id= "hamburger" class="hamburger">
   <div class="bar"></div>
   <div class="bar"></div>
   <div class="bar"></div>
@@ -124,4 +123,3 @@ firstImageContent.src = "images/ofada1.svg";
 firstImage.appendChild(firstImageContent);
 products.innerHTML = productsContent;
 footer.innerHTML = footerContent;
-testimonialFooter.innerHTML = footerContent;
