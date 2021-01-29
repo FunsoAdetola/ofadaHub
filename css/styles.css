@@ -113,7 +113,8 @@ nav .drop {
 .products p {
   color: #c4c4c4;
   margin: 1rem 2rem 4rem;
-  text-align: justify;
+  text-align: left;
+  line-height: 1.5;
 }
 .list {
   display: flex;
@@ -394,13 +395,21 @@ testimonials */
   .hamburger {
     display: none;
   }
-  nav,
+  .nav-brand,
   .dropdown {
-    display: inline-block;
     z-index: 1;
-    width: 50%;
+    min-width: 50%;
     margin: 0;
   }
+  .nav-brand {
+    min-width: 40%;
+  }
+  .dropdown {
+    position: static;
+    float: right;
+    min-width: 60%;
+  }
+
   .dropdown {
     transition: none;
     transform: translateY(0);
@@ -408,14 +417,18 @@ testimonials */
     margin: 0;
     height: auto;
     position: static;
-    /* height: 60px; */
-    padding: 0 1rem;
+    text-align: center;
   }
   .dropdown li {
     display: inline-block;
-    margin: 1rem;
+    margin: 1rem 2rem;
   }
   .first-image {
     z-index: 0;
+  }
+
+  .price-list,
+  .distributor-list {
+    width: 45%;
   }
 }
