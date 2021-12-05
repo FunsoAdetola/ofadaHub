@@ -431,4 +431,22 @@ testimonials */
   .distributor-list {
     width: 45%;
   }
+  .first-image {
+    height: 100vh;
+  }
+  .first-image img {
+    height: 100%;
+  }
+  .welcome {
+    height: 50%;
+  }
+  .welcome img {
+    height: 100%;
+  }
+  .second-image {
+    display: none;
+  }
+  .second-image img {
+    height: 100%;
+  }
 }
