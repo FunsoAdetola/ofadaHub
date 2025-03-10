@@ -6,7 +6,7 @@ const footer = document.querySelector(".footer");
 const navContent = `<nav>
 <div class="nav-brand">
   <img src="images/logo.svg" alt="brand logo" />
-  <span class="brand-name">Ofada Hub</span>
+  <span class="brand-name">Ofada</span>
 </div>
 <div id= "hamburger" class="hamburger">
   <div class="bar"></div>
@@ -32,7 +32,7 @@ const navContent = `<nav>
 
 const productsContent = ` <h2 class="product-heading">Our Products</h2>
 <p>
-  OFADA HUB is a small/medium business into the production, processing,
+  OFADA is a small/medium business into the production, processing,
   packaging, sale and distribution of the popular Nigeria local rice known
   as Ofada (brown rice)
 </p>
